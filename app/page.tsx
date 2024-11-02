@@ -1,9 +1,9 @@
-import Image from "next/image";
+import { MovieMoodRecommender } from "@/components/movie-mood-recommender";
 
 export default function Home() {
     return (
         <div>
-            <h1 className="text-4xl font-semibold text-zinc-900">Homepage</h1>
+            <MovieMoodRecommender />
         </div>
     );
 }
