@@ -304,7 +304,7 @@ export function MovieMoodRecommender() {
     }
 
     useEffect(() => {
-        handleSubmit(new Event('submit') as React.FormEvent)
+        handleSubmit(new Event('submit') as unknown as React.FormEvent);
     }, [])
 
     return (
